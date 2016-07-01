@@ -1,0 +1,27 @@
+﻿1: Add ssh key  do not set password
+
+2: 
+
+需要改变登录的协议，Git 默认都是HTTPS协议。 
+
+创建ssh的key之后用如下命令更改为ssh
+git remote rm origin 
+git remote add origin "Git仓库的ssh格式地址" 
+git push origin master
+
+
+3: test branch
+
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
