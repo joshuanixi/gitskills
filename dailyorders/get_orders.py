@@ -53,10 +53,6 @@ def get_unshipped_orders(market_place_id,created_after,created_before):
 		orders=[]
 	unshipped_orders={}
 	for order in orders:
-	try:
-			order['AmazonOrderId']['value']
-		except:
-			continue
 		order_id=order['AmazonOrderId']['value']
 		order_status=order['OrderStatus']['value']
 		if order_status.lower()!='canceled' and order_status.lower()!='pending':
