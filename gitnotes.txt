@@ -103,4 +103,84 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
 
 从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。  ---10
+
+
+
+
+
+12: 如何更改文件夹的名字：
+mv olderfilename newfilename
+git add -u newfoldername
+git commit -m “更改名字”
+
+
+13： 如何删除文件夹：
+
+
+git rm raindow -r -f 是删除raindow下面所有的文件
+
+git commit  -m  “”  然后是同步
+
+git push origin master  同步远程
+
+
+14：git clone git@github.com/joshuanixi/orders.git
+    git clone https://github.com/joshuanixi/orders.git
+    
+    
+  
+  
+15: git add <path>表示 add to index only files created or modified and not those deleted 
+我通常是通过git add <path>的形式把我们<path>添加到索引库中，<path>可以是文件也可以是目录。
+
+git add -u 表示 add to index only files modified or deleted and not those created 
+
+git add -u [<path>]: 把<path>中所有tracked文件中被修改过或已删除文件的信息添加到索引库。它不会处理untracted的文件。
+省略<path>表示.,即当前目录。 
  
+ 
+ git add -A: [<path>]表示把<path>中所有tracked文件中被修改过或已删除文件和所有untracted的文件信息添加到索引库。
+省略<path>表示.,即当前目录。
+
+我们可以通过git add -i [<path>]命令查看<path>中被所有修改过或已删除文件但没有提交的文件，
+
+
+并通过其revert子命令可以查看<path>中所有untracted的文件，同时进入一个子命令系统。
+
+5.1、revert子命令
+可以通过git add -i的revert子命令（3: [r]evert）把已经添加到索引库中的文件从索引库中剔除。
+（3: [r]evert）表示通过3或r或revert加回车执行该命令。执行该命令后，git会例出索引库中的文件列表.
+然后通过数字来选择。输入"1"表示git会例出索引库中的文件列表中的第1个文件。
+"1-15"表示git会例出索引库中的文件列表中的第1个文件到第15个文件.回车将执行。
+如果我们不输入任何东西，直接回车，将结束revert子命令，返回git add -i的主命令行。
+5.2、update子命令
+可以通过update子命令（2: [u]pdate）把已经tracked的文件添加到索引库中。其操作和revert子命令类似。
+5.3、add untracked子命令
+通过add untracked子命令（4: [a]dd untracked）可以把还没被git管理的文件添加到索引库中。其操作和revert子命令类似。
+5.4、diff子命令
+可以通过diff子命令（6: [d]iff）可以比较索引库中文件和原版本的差异。其操作和revert子命令类似。
+5.5、status子命令
+status子命令(1: [s]tatus)功能上和git add -i相似
+5.6、quit子命令
+quit子命令（7: [q]uit）用于退出git add -i命令系统
+
+
+
+六、帮助
+我们可以通过git add -h命令来看git add命令的帮助文档。
+ git add -h
+usage: git add [options] [--] <filepattern>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
