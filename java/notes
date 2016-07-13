@@ -1,0 +1,164 @@
+Java学习顺序
+
+
+首先要学JavaSE，这是无庸置疑的。  与此同时，和JavaSE的学习同步，建议大家研究一下数据结构与算法。 在这儿之后，你可以选择向J2ME、或者Java GUI、Socket编程等方向努力
+
+
+在JavaSE完成之后，可以试着完成一些小项目，同时关注一下设计模式的内容，不必强求自己能够完全掌握各种细节，往前走吧。 掌握一种编程工具，比如说Eclipse。  数据库，可以选择使用Oracle或者MySQL开始。 JDBC，用Java连接数据库。  可以选择在这个地方切入Hibernate，也可以选择在Struts之后。  HTML CSS JavaScript，这些东西是做web项目必需的内容。 Servlet JSP，服务器端必需。  XML AJAX，新的流行趋势不能不了解。   作一些小项目吧。比如BBS、留言系统、学籍管理、商城等等，随便着一些业务逻辑比较简单的来做一做。 Struts，MVC的典型应用  Hibernate，OR Mapping的典范之作。  Spring IOC + AOP， 面向对象 ＋ 面向切面，完善的旅程。 把以前自己的小项目加入Struts、Spring、Hibernate的元素吧。 去研究各种商业项目的业务逻辑吧，才能在你的简历中加入浓重的一笔。  EJB3.0，java在走了很多弯路后的回归之作，值得研究。 SOA，业界铁定的未来趋势，要紧紧跟随
+
+
+无论如何，请坚持不懈的动手实验！ 
+
+http://community.csdn.net    bbs forum
+
+一：J2SE ................................................................................................................................... 9 
+二：数据库（Oracle或者MySQL） ....................................................................................... 9 三：JDBC................................................................................................................................. 10
+ 四：HTML_CSS_JAVASCRIPT ................................................................................................... 10 
+ 五：Servlet & JSP .................................................................................................................... 10 
+ 六：Struts ............................................................................................................................... 10 
+ 七：XML ................................................................................................................................. 11
+  八：Hibernate ........................................................................................................................ 11 
+  九：Spring .............................................................................................................................. 11 
+  十：EJB3.0 
+
+
+第一部分：J2se学习视频内容包括：
+尚学堂科技_马士兵_JAVA视频教程_JDK5.0_下载-安装-配置
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第01章_JAVA简介_源代码_及重要说明
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第02章_递归补充
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第02章_基础语法
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第03章_面向对象
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第04章_异常处理
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第05章_数组
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第06章_常用类
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第07章_容器
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第08章_IO
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第09章_线程
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第10章_网络
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_第11章_GUI
+尚学堂科技_马士兵_JAVA视频教程_J2SE_5.0_专题_日期处理
+尚学堂科技_马士兵_JAVA视频教程_J2SE_专题_正则表达式
+反射avi
+
+
+第二部分：j2se练习项目视频内容包括：
+
+尚学堂科技_马士兵_在线聊天系统雏形视频教程_java_eclipse
+尚学堂科技_马士兵_坦克大战视频教程_java_eclipse
+尚学堂科技_马士兵_坦克大战图片版
+尚学堂科技_马士兵_JAVA_坦克大战网络版视频教程
+尚学堂科技_马士兵_snake_贪吃蛇内部视频
+
+
+第三部分数据库视频
+Oracle视频内容包括：01——53讲avi格式
+
+
+第四部分：JDBC和MySQL视频，内容包括：
+1_lomboz_eclipse_jdbc
+2_mysql_avi
+3_连接池的设计思路.avi
+
+第五部分：HTML & CSS & JAVASCRIPT 视频：
+Html & CSS 视频内容简介：
+01_html简单介绍和meta标签.avi
+02_a_路径问题等等.avi
+03_学习方法_其他常用标签.avi
+04_1_note.avi
+04_表格和表单_1.avi
+05_表格和表单_2.avi
+06_Frame.avi
+07_Dreamweaver.avi
+08_CSS_1.avi
+09_CSS_2_选择方式.avi
+10_CSS_3.avi
+11_CSS_4.avi
+JavaScript 视频简介：
+01_JS初步及调试.avi
+02_JS基本语法.avi
+03_函数_事件处理_1.avi
+04_事件处理_2.avi
+05_内置对象_DOM_BOM.avi
+06_趣味.avi
+07_实用.avi
+08_表单验证.avi
+09_表单验证_new.avi
+10_后台框架.avi
+11_后台框架_2.avi
+12_TREE.avi
+
+
+第六部分：Servlet & JSP视频——内容包括：
+1 tomcat的安装使用，配置
+2 servlet & jsp 视频 1——30节
+jsp的练习项目内容包括：
+3 简单bbs项目
+3 2007美化BBS项目
+4 网上商城项目视频
+4 网上商城项目视频讲解视频
+
+
+第七部分：J2EE学习视频包括：
+DRP项目
+框架视频学习：
+Struts视频
+Hibernate视频
+Spring视频
+提高部分：
+uml统一建模语言视频
+SSH项目视频：
+oa办公自动化系统视频
+crm项目视频
+银行系统视频
+ejb3.0视频
+J2ME_3G简介资料
+面试材料：
+面试题大汇总+笔记+技巧
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+下面给出第二节JAVA自学路线图 中知识点的明细： 
+ 一：J2SE   面向对象－封装、继承、多态   内存的分析  递归           
+                   集合类、泛型、自动打包与解包、Annotation IO  
+
+     多线程、线程同步   TCP/UDP 
+
+     AWT、事件模型、匿名类 正则表达式        反射机制  
+
+     二：数据库（Oracle或者MySQL）  SQL语句           
+         多表连接，内外连接， 子查询等 管理表、视图、索引、序列、约束等     树状结构存储  存储过程、触发器           
+                   数据库设计三范式、
+
+10    三：JDBC  JDBC基础               连接池   树状结构存储与展现     DataSource & RowSet {看有视频} JDBC连接Oracle及MySQL
+四：HTML_CSS_JAVASCRIPT  html、css、javascript基础语法      JavaScript Form判断   Dom编程基础（事件处理等）      JS常用效果如TreeView、下拉联动等 JS学习方法                      JS调试方法   DreamWeaver初步（建立HTML、Table、Form、CSS）等  
+
+
+五：Servlet & JSP  tomcat基础         servlet基础   web.xml配置基础    web application的结构   servlet生命周期      request response等常用方法  ServletContext类     HTTP协议基础（GET POST） Cookie   Session   Application   JSP的几种语法（包括JSTL等）注意在项目中练习，不要拘泥于语法细节而裹步不前。
+
+
+六：Struts  多层架构理论                 Model 1 and Model 2  Struts基本概念                MVC  Action与业务逻辑类的关系     在Struts与JSP之间传递数据 Struts处理流程（控制流）      Struts TagLib（了解常用的）   JSTL                         ActionForm   字段收集                     上传文件  类型转换                     DTO  动态Action Form               验证框架  ActionForward 转发与重定向    动态生成ActionForward  全局与局部的ActionForward    Action Forward Scope UnknownActionMapping        Action的线程安全  I18N       如何切换语言环境  Struts异常处理机制 程序处理 自动处理 自定义异常处理器 Struts的多模块配置 
+
+
+
+七：XML  （XML/XSL、XSLT/DTD、SCHEMA等基础的概念、关于Java的编程可以暂时扔在一边）
+
+八：Hibernate  OR Mapping原理   Hibernate基础开发步骤   Hibernate基本接口（重点Session） 普通属性映射  关联关系映射  Native SQL   inverse lazy cascade  继承关系映射  HQL   性能优化 一级缓存 二级缓存 查询缓存 事务与并发 悲观锁、乐观锁  OpenSessionInView  CurrentSession   （至于JTA、联合主键、自然主键、动态主键、Any类型 Creteria Queries Intercepter and Event 自定义类型等，可以暂时扔在一边）
+
+
+九：Spring  IOC/DI  Spring配置 Spring架构   AOP及Spring AOP  声明式事务（AOP）  Spring + Hibernate Spring支持Web  Scope   （其他的Spring模块对于自学来说可以暂时扔在一边）
+
+
+十：EJB3.0  J2EE架构基础（JTA JMS等）   EJB基础（地位及基本理论、分类等）
+Annotation  Ant编译与部署EJB  Session Bean  EJB的依赖注入  Persistence API   （可以用JBoss学习EJB3.0）
+

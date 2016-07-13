@@ -1,0 +1,1 @@
+http://python-amazon-product-api.readthedocs.io/en/latest/index.html
